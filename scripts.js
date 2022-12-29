@@ -5,8 +5,10 @@ function increment(){
     counterNumber.textContent=count;
 }
 function decrement(){
-    count--;
-    counterNumber.textContent=count;
+    if(count>0){
+        count--;
+        counterNumber.textContent=count;
+    }
 }
 function reset(){
     count=0;

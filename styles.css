@@ -45,4 +45,13 @@ body {
   div button {
     display: inline-block;
   }
-  
+  @media only screen and (max-width: 500px) {
+    div>div{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    button{
+      margin: 10px;
+    }
+  }
