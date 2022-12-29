@@ -47,7 +47,6 @@ body {
   }
   @media only screen and (max-width: 500px) {
     div>div{
-      display: flex;
       flex-direction: column;
       align-items: center;
     }
